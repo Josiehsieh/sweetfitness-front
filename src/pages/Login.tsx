@@ -62,7 +62,7 @@ export default function Login() {
           <div className="w-12 h-12 bg-primary rounded-xl flex items-center justify-center text-on-primary macaron-glow">
             <span className="material-symbols-outlined">restaurant</span>
           </div>
-          <h1 className="font-headline font-extrabold text-3xl tracking-tighter text-primary">甘味健身 | Sweet Fitness</h1>
+          <h1 className="font-headline font-extrabold text-3xl tracking-tighter text-primary">JosieFitness</h1>
         </div>
         <div className="space-y-4">
           <h2 className="font-headline text-4xl lg:text-5xl font-bold leading-tight text-on-surface">
