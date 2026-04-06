@@ -9,8 +9,8 @@ export default function Navbar() {
   return (
     <nav className="fixed top-0 w-full z-50 bg-[#faf5f9]/80 dark:bg-stone-900/80 backdrop-blur-xl shadow-[0_12px_32px_rgba(133,73,92,0.08)] tonal-shift-no-border">
       <div className="flex justify-between items-center px-8 py-4 max-w-full mx-auto">
-        <Link to="/schedule" className="text-2xl font-bold text-[#00684f] dark:text-[#89f0cb] tracking-tighter font-headline">
-          JosieFitness
+        <Link to="/schedule" className="flex items-center">
+          <img src="/logo.png" alt="JosieFitness" className="h-14 w-auto object-contain" />
         </Link>
         <div className="hidden md:flex items-center gap-8 font-headline font-medium text-lg tracking-tight">
           <Link to="/" className="text-stone-500 hover:text-[#00684f] transition-colors duration-300">

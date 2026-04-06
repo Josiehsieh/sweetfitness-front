@@ -23,7 +23,7 @@ export default function Footer() {
   return (
     <footer className="bg-[#f4eff4] dark:bg-stone-950 w-full py-12 px-8 tonal-shift-no-border mt-auto">
       <div className="flex flex-col md:flex-row justify-between items-center gap-6 max-w-7xl mx-auto font-body text-sm text-stone-500">
-        <div className="text-lg font-bold text-[#00684f] font-headline">JosieFitness</div>
+        <img src="/logo.png" alt="JosieFitness" className="h-10 w-auto object-contain" />
         <div className="flex gap-8">
           <a className="hover:text-[#00684f] transition-colors" href="#">隱私政策</a>
           <a className="hover:text-[#00684f] transition-colors" href="#">服務條款</a>

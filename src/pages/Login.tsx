@@ -58,11 +58,8 @@ export default function Login() {
 
       {/* Brand Section */}
       <div className="w-full max-w-md text-center lg:text-left space-y-6 z-10">
-        <div className="inline-flex items-center justify-center lg:justify-start gap-3 mb-4">
-          <div className="w-12 h-12 bg-primary rounded-xl flex items-center justify-center text-on-primary macaron-glow">
-            <span className="material-symbols-outlined">restaurant</span>
-          </div>
-          <h1 className="font-headline font-extrabold text-3xl tracking-tighter text-primary">JosieFitness</h1>
+        <div className="inline-flex items-center justify-center lg:justify-start mb-4">
+          <img src="/logo.png" alt="JosieFitness" className="h-28 w-auto object-contain" />
         </div>
         <div className="space-y-4">
           <h2 className="font-headline text-4xl lg:text-5xl font-bold leading-tight text-on-surface">
