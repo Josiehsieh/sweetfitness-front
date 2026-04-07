@@ -10,16 +10,14 @@ import Login from './pages/Login';
 import Schedule from './pages/Schedule';
 import Cart from './pages/Cart';
 import LineCallback from './pages/LineCallback';
-import GoogleCallback from './pages/GoogleCallback';
 
 export default function App() {
   return (
     <Router>
       <div className="flex flex-col min-h-screen">
         <Routes>
-          {/* OAuth Callback 頁不需要 Navbar/Footer */}
+          {/* LINE Callback 不需要 Navbar/Footer */}
           <Route path="/auth/line/callback" element={<LineCallback />} />
-          <Route path="/auth/google/callback" element={<GoogleCallback />} />
 
           <Route path="/*" element={
             <>
